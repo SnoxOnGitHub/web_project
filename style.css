@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------Scrollbar-------------------------------------*/
+
+::-webkit-scrollbar{
+    width: 7.5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(196, 196, 196);
+    border-radius: 50px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
+    transition: all 0.3s ease 0s;
+}
+
+::selection {
+    color: #202125;
+    background: orange; 
+}
+
+/*---------------------------------Scrollbar-end---------------------------------*/
+
+li, a, p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1em;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    /*position: sticky;
+    top: 0;*/
+    background-color: #202125;
+}
+
+.menu{
+    display: none;
+}
+
+.LogoSVG{
+    cursor: pointer;
+    min-width: 40px;
+    max-width: 40px;
+    margin-right: auto;
+}
+
+.module {
+    fill: white;
+}
+
+.module:hover{
+    fill: orange;
+    transition: all 0.3s ease 0s;
+}
+
+.navigationbar-list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigationbar-list li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.navigationbar-list li a:hover {
+    color: orange;
+}
+
+button {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    color: #202125;
+    text-decoration: none;
+
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    box-shadow: inset 0 0 0 0 white;
+}
+
+button:hover {
+    box-shadow: inset 0 0 25px 25px white;
+}
+
+body{
+    background-color: #121212;
+}
+
+.text{
+    padding: 1em 10% 0;
+}
+.video{
+    display: flex;
+    padding: 1em 10% 0;
+    height: auto;
+    justify-content: center;
+}
+iframe{
+    width: 80%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+}
+
+
+.copyright_container{
+    margin-top: 1em;
+    padding: 1em 10%;
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    border-color: #202125;
+    border-width: 1px;
+}
+.copyright_container p{
+    display: block;
+    font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px){
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    header{
+        padding: 5px 3%;
+    }
+    .linemenu{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-right: 87.5%;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 2;
+    }
+    .linemenu:hover{
+        background-color: rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+    .linemenu:hover #line{
+        background-color: orange;
+        transition: all 0.3s ease 0s;
+    }
+    .linemenu.active{
+        transform: rotate(-90deg);
+    }
+    .linecontent{
+        margin: auto;
+    }
+    #line{
+        width: 18px;
+        height: 2.5px;
+        background-color: white;
+        margin: 2.5px;
+        border-radius: 1px;
+    }
+    .LogoSVG{
+        margin: auto;
+        z-index: 2;
+    }
+    .navigationbar-list{
+        display: none;
+    }
+    .contactbtn{
+        display: none;
+    }
+    .menu{
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        background: #121212;
+        z-index: 1;
+        transition: 1s;
+        display: flex;
+        justify-content: center;
+    }
+    .menu.active{
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        overflow: auto;
+    }
+    .menu_elements{
+        transform: translate(-110px, -90px);
+        list-style: none;
+        width: 100%;
+        text-align: 10%;
+        padding-top: 15%;
+        transition: all ease-out 0.4s;
+    }
+    .menu_elements.active{
+        transform: translate(0, 0);
+        left: 0;
+        transition: all ease-in 0s;
+    }
+    .menu_elements li a{
+        font-size: 1.1em;
+        color: white;
+        display: block;
+        border-bottom: solid;
+        border-width: 1%;
+        border-color: #202125;
+        padding: 0.7em 0 0.7em 10%;
+        transition: all 0.3s ease 0s;
+    }
+    .menu_elements li a:hover{
+        color: orange;
+        background-color: #202125;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+}
