@@ -201,7 +201,7 @@ iframe{
         height: 0;
         background: #121212;
         z-index: 1;
-        transition: all 1.2s;
+        transition: all ease-in-out 1.2s;
         display: flex;
         justify-content: center;
     }
@@ -211,17 +211,16 @@ iframe{
         top: 0;
         overflow: auto;
     }
-    .menu .menu_elements{
-        display: none;
+    .menu_elements{
+        display: block;
+        overflow: hidden;
         list-style: none;
         width: 100%;
         text-align: 10%;
         padding-top: 15%;
+        transition: all ease-in-out 1.2s;
     }
-    .menu.active .menu_elements{
-        display: block;
-    }
-    .menu.active .menu_elements li a{
+    .menu_elements li a{
         font-size: 1.1em;
         color: white;
         display: block;
@@ -231,7 +230,7 @@ iframe{
         padding: 0.7em 0 0.7em 10%;
         transition: all 0.3s ease 0s;
     }
-    .menu.active .menu_elements li a:hover{
+    .menu_elements li a:hover{
         color: orange;
         background-color: #202125;
     }
