@@ -169,7 +169,7 @@ iframe{
         transition: all 0.3s ease 0s;
     }
     .linemenu.active{
-        transform: rotate(-90deg);
+        transform: rotate(90deg);
     }
     .linecontent{
         margin: auto;
@@ -199,9 +199,9 @@ iframe{
         top: 0;
         width: 100%;
         height: 0;
-        background: #121212;
+        background: #000000;
         z-index: 1;
-        transition: all ease-in-out 1.2s;
+        transition: ease-in-out .5s;
         display: flex;
         justify-content: center;
     }
@@ -226,13 +226,13 @@ iframe{
         display: block;
         border-bottom: solid;
         border-width: 1%;
-        border-color: #202125;
+        border-color: #121212;
         padding: 0.7em 0 0.7em 10%;
         transition: all 0.3s ease 0s;
     }
     .menu_elements li a:hover{
         color: orange;
-        background-color: #202125;
+        background-color: #121212;
     }
 
     iframe{
