@@ -201,7 +201,7 @@ iframe{
         height: 0;
         background: #000000;
         z-index: 1;
-        transition: ease-in-out .5s;
+        transition: ease-in 0.5s;
         display: flex;
         justify-content: center;
     }
