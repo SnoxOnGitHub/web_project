@@ -113,18 +113,6 @@ body{
 .text{
     padding: 1em 10% 0;
 }
-.video{
-    display: flex;
-    padding: 1em 10% 0;
-    height: auto;
-    justify-content: center;
-}
-iframe{
-    width: 80%;
-    aspect-ratio: 16/9;
-    border-radius: 10px;
-}
-
 
 .copyright_container{
     margin-top: 1em;
@@ -233,10 +221,6 @@ iframe{
     .menu_elements li a:hover{
         color: orange;
         background-color: #121212;
-    }
-
-    iframe{
-        width: 100%;
     }
 
 }
