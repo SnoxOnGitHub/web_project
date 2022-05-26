@@ -114,6 +114,7 @@ body{
     padding: 1em 10% 0;
 }
 
+
 .copyright_container{
     margin-top: 1em;
     padding: 1em 10%;
@@ -176,7 +177,7 @@ body{
     .navigationbar-list{
         display: none;
     }
-    .contactbtn{
+    .button_faq{
         display: none;
     }
     .menu{
@@ -221,6 +222,10 @@ body{
     .menu_elements li a:hover{
         color: orange;
         background-color: #121212;
+    }
+
+    iframe{
+        width: 100%;
     }
 
 }
