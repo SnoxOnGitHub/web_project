@@ -59,6 +59,8 @@ header {
     cursor: pointer;
     min-width: 40px;
     max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
     margin-right: auto;
 }
 
@@ -66,7 +68,7 @@ header {
     fill: white;
 }
 
-.module:hover{
+.LogoSVG:hover .module{
     fill: orange;
     transition: all 0.3s ease 0s;
 }
@@ -113,7 +115,6 @@ body{
 .text{
     padding: 1em 10% 0;
 }
-
 
 .copyright_container{
     margin-top: 1em;
@@ -222,10 +223,6 @@ body{
     .menu_elements li a:hover{
         color: orange;
         background-color: #121212;
-    }
-
-    iframe{
-        width: 100%;
     }
 
 }

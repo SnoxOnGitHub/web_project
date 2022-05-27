@@ -59,6 +59,8 @@ header {
     cursor: pointer;
     min-width: 40px;
     max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
     margin-right: auto;
 }
 
@@ -66,7 +68,7 @@ header {
     fill: white;
 }
 
-.module:hover{
+.LogoSVG:hover .module{
     fill: orange;
     transition: all 0.3s ease 0s;
 }
