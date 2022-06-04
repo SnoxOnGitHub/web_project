@@ -57,8 +57,10 @@ header {
 
 .LogoSVG{
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
     margin-right: auto;
 }
 
@@ -113,37 +115,6 @@ body{
 .text{
     padding: 1em 10% 0;
 }
-
-.video{
-    display: flex;
-    padding: 1em 10% 0;
-    height: auto;
-    justify-content: center;
-}
-iframe{
-    width: 80%;
-    aspect-ratio: 16/9;
-    border-radius: 10px;
-}
-
-.dogsvg{
-    height: 133px;
-    width: 180px;
-}
-.dog_0{
-    fill: white;
-    transition: all 0.3s ease 0s;
-}
-.dogsvg:hover .dog_0{
-    fill: orange;
-}
-.dogbox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-}
-
 
 .copyright_container{
     margin-top: 1em;
@@ -252,10 +223,6 @@ iframe{
     .menu_elements li a:hover{
         color: orange;
         background-color: #121212;
-    }
-
-    iframe{
-        width: 100%;
     }
 
 }
