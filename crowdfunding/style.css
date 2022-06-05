@@ -116,6 +116,10 @@ body{
     padding: 1em 10% 0;
 }
 
+.nano_address{
+    word-break: break-all;
+}
+
 .copyright_container{
     margin-top: 1em;
     padding: 1em 10%;
