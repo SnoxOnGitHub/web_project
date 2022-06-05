@@ -118,6 +118,7 @@ body{
 
 .nano_address{
     word-break: break-all;
+    font-style: italic;
 }
 
 .copyright_container{
