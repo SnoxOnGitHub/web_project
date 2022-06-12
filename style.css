@@ -46,7 +46,7 @@ li, a, p {
     font-family: "Poppins";
     font-weight: 400;
     font-size: 1em;
-    color: #edf0f1;
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
@@ -92,7 +92,6 @@ header {
 
 .navigationbar-list li a {
     transition: all 0.3s ease 0s;
-
 }
 
 .navigationbar-list li a:hover {
@@ -183,6 +182,13 @@ body{
         margin: 2.5px;
         border-radius: 1px;
     }
+    .linemenu.active #line{
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+    }
+
+
     .LogoSVG{
         margin: auto;
         z-index: 2;
