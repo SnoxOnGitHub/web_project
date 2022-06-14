@@ -73,7 +73,6 @@ header {
     width: 40px;
     height: 40px;
     margin-right: auto;
-    user-select: none;
 }
 
 .module {
@@ -127,6 +126,11 @@ body{
     padding: 1em 10% 0;
 }
 
+.goal{
+    color: var(--main-color);
+    font-style: italic;
+}
+
 .nano_address{
     word-break: break-all;
     color: var(--main-color);
@@ -166,7 +170,6 @@ body{
         z-index: 2;
         cursor: pointer;
         transition: all 0.3s ease 0s;
-        user-select: none;
     }
     /*
     .linemenu:hover{

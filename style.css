@@ -73,7 +73,6 @@ header {
     width: 40px;
     height: 40px;
     margin-right: auto;
-    user-select: none;
 }
 
 .module {
@@ -161,7 +160,6 @@ body{
         z-index: 2;
         cursor: pointer;
         transition: all 0.3s ease 0s;
-        user-select: none;
     }
     /*
     .linemenu:hover{
