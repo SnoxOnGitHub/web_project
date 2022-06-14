@@ -69,11 +69,10 @@ header {
 
 .LogoSVG{
     cursor: pointer;
-    min-width: 40px;
-    max-width: 40px;
-    min-height: 40px;
-    max-height: 40px;
+    width: 40px;
+    height: 40px;
     margin-right: auto;
+    user-select: none;
 }
 
 .module {
@@ -129,7 +128,7 @@ body{
 
 .nano_address{
     word-break: break-all;
-    font-style: italic;
+    color: var(--main-color);
 }
 
 .copyright_container{
@@ -164,12 +163,16 @@ body{
         justify-content: space-between;
         position: absolute;
         z-index: 2;
-    }
-    .linemenu:hover{
-        background-color: rgba(255, 255, 255, 0.05);
+        cursor: pointer;
         transition: all 0.3s ease 0s;
+        user-select: none;
+    }
+    /*
+    .linemenu:hover{
+        background-color: var(--border-color);
         cursor: pointer;
     }
+    */
     .linemenu:hover #line{
         background-color: var(--main-color);
         transition: all 0.3s ease 0s;
@@ -183,7 +186,7 @@ body{
     #line{
         width: 18px;
         height: 2.5px;
-        background-color: white;
+        background-color: var(--main-text-color);
         margin: 2.5px;
         border-radius: 1px;
     }
@@ -235,7 +238,7 @@ body{
     }
     .menu_elements li a{
         font-size: 1.1em;
-        color: white;
+        color: var(--main-text-color);
         display: block;
         border-bottom: solid;
         border-width: 1%;
