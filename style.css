@@ -229,6 +229,7 @@ body{
         text-align: 10%;
         padding-top: 15%;
         transition: all ease-in-out 1.2s;
+        user-select: none;
     }
     .menu_elements li a{
         font-size: 1.1em;
