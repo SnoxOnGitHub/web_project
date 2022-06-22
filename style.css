@@ -122,8 +122,14 @@ body{
     background-color: var(--main-bg-color);
 }
 
-.text{
+.content{
     padding: 1em 5% 0;
+}
+
+.date{
+    font-style: italic; 
+    text-align: end; 
+    padding-top: 1em;
 }
 
 .copyright_container{
@@ -138,6 +144,10 @@ body{
 .copyright_container p{
     display: block;
     font-size: 0.9em;
+}
+
+.linemenu{
+    display: none;
 }
 
 @media only screen and (max-width: 600px){
@@ -161,12 +171,6 @@ body{
         cursor: pointer;
         transition: all 0.3s ease 0s;
     }
-    /*
-    .linemenu:hover{
-        background-color: var(--border-color);
-        cursor: pointer;
-    }
-    */
     .linemenu:hover #line{
         background-color: var(--main-color);
         transition: all 0.3s ease 0s;

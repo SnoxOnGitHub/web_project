@@ -122,8 +122,12 @@ body{
     background-color: var(--main-bg-color);
 }
 
-.text{
+.content{
     padding: 1em 5% 0;
+}
+
+.linemenu{
+    display: none;
 }
 
 .goal{
