@@ -146,15 +146,10 @@ body{
     font-size: 0.9em;
 }
 
-.linemenu{
-    display: none;
-}
-
 @media only screen and (max-width: 600px){
     ::-webkit-scrollbar {
         display: none;
     }
-
     header{
         padding: 5px 3%;
     }
@@ -162,7 +157,8 @@ body{
         width: 40px;
         height: 40px;
         display: flex;
-        margin-right: 85%;
+        /*margin-right: 85%;*/
+        right: 88%;
         border-radius: 50%;
         align-items: center;
         justify-content: space-between;
