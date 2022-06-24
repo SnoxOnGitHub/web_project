@@ -136,6 +136,41 @@ body{
     color: var(--main-color);
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: transparent;
+    font-family: "Poppins";
+    font-size: 400;
+    color: var(--main-text-color);
+    width: 100%;
+    column-gap: 1%;
+    row-gap: 10px;
+    height: fit-content;
+}
+.grid-item{
+    border: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: var(--border-color);
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+.crypto-logo{
+    height: 30px;
+    margin: 20px 0 10px;
+    pointer-events: none;
+    user-select: none;
+}
+.info-text-box{
+    text-align: left;
+    padding: 0 5% 10px;
+}
+.info-text{
+    padding-bottom: 1%;
+}
+
+
 .copyright_container{
     margin-top: 1em;
     padding: 1em 10%;
@@ -148,6 +183,12 @@ body{
 .copyright_container p{
     display: block;
     font-size: 0.9em;
+}
+
+@media only screen and (max-width: 1000px){
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -255,6 +296,9 @@ body{
     .menu_elements li a:hover{
         color: var(--main-color);
         background-color: var(--main-bg-color);
+    }
+    .grid-container{
+        grid-template-columns: auto;
     }
 
 }
