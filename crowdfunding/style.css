@@ -51,6 +51,15 @@ li, a, p {
     text-decoration: none;
 }
 
+h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.3em;
+    color: var(--main-text-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -201,7 +210,6 @@ body{
     ::-webkit-scrollbar {
         display: none;
     }
-
     header{
         padding: 5px 3%;
     }
