@@ -138,7 +138,7 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 24.22% 24.22% 24.22% 24.22%;
     background-color: transparent;
     font-family: "Poppins";
     font-size: 400;
@@ -183,6 +183,12 @@ body{
 .copyright_container p{
     display: block;
     font-size: 0.9em;
+}
+
+@media only screen and (max-width: 1300px){
+    .grid-container{
+        grid-template-columns: 32.6% 32.6% 32.6%;
+    }
 }
 
 @media only screen and (max-width: 1000px){
