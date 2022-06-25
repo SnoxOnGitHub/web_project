@@ -154,16 +154,17 @@ body{
     color: var(--main-text-color);
     width: 100%;
     column-gap: 1%;
-    row-gap: 10px;
+    row-gap: 12px;
     height: fit-content;
 }
 .grid-item{
     border: solid;
     border-radius: 10px;
-    border-width: 3px;
+    border-width: 2px;
     border-color: var(--border-color);
-    background-color: var(--main-bg-color);
+    background-color: transparent;
     text-align: center;
+    box-shadow: 4px 4px var(--border-color);
 }
 .crypto-logo{
     height: 30px;
@@ -178,7 +179,33 @@ body{
 .info-text{
     padding-bottom: 1%;
 }
-
+.address{
+    word-break: break-all;
+}
+#BTC{
+    color: #F7931A;
+}
+#ETH{
+    color: #637fea;
+}
+#Polygon{
+    color: #9366e1;
+}
+#LTC{
+    color: #7695c7;
+}
+#XMR{
+    color: #ff771c;
+}
+#XLM{
+    text-decoration: underline;
+}
+#XNO{
+    color: #5b9ae7;
+}
+#BAN{
+    color: #fbdd11;
+}
 
 .copyright_container{
     margin-top: 1em;
