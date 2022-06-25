@@ -14,34 +14,16 @@
     --main-text-color: #edf0f1;
 }
 
-/*---------------------------------Scrollbar-------------------------------------*/
-
 ::-webkit-scrollbar{
-    width: 7.5px;
     /*taking away the scrollbar temporarly*/
     display: none;
 }
-/*
-::-webkit-scrollbar-track {
-    background: var(--main-bg-color);
-}
 
-::-webkit-scrollbar-thumb {
-    background: rgb(196, 196, 196);
-    border-radius: 50px;
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: gray;
-    transition: all 0.3s ease 0s;
-}
-*/
 ::selection {
     color: var(--border-color);
     background: var(--main-color); 
 }
 
-/*---------------------------------Scrollbar-end---------------------------------*/
 
 li, a, p {
     font-family: "Poppins";
