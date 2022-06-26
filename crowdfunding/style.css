@@ -67,7 +67,7 @@ header {
 }
 
 .module {
-    fill: white;
+    fill: var(--main-text-color);
 }
 
 .LogoSVG:hover .module{
@@ -102,11 +102,11 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.5s ease 0s;
-    box-shadow: inset 0 0 0 0 white;
+    box-shadow: inset 0 0 0 0 var(--main-text-color);
 }
 
 button:hover {
-    box-shadow: inset 0 0 25px 25px white;
+    box-shadow: inset 0 0 25px 25px var(--main-text-color);
 }
 
 body{
@@ -285,7 +285,7 @@ body{
         height: 0;
         background: #000000;
         z-index: 1;
-        transition: ease-in 0.5s;
+        transition: cubic-bezier(0.7, 0.3, 0.3, 0.7) 0.5s;
         display: flex;
         justify-content: center;
         overflow: auto;
