@@ -2,7 +2,7 @@ const page_url = "https://snoxongithub.github.io/web_project/"
 
 function urls(){
 
-    document.getElementById('favicon').href = page_url + "images/Golden_Circles.svg"
+    document.getElementById('favicon').href = page_url + "images/Favicon.svg"
 
     document.getElementById('logo_href').href = page_url
 
