@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -48,7 +48,7 @@ h2{
     font-weight: 600;
     font-size: 1.3em;
     color: var(--main-text-color);
-    margin: 2em  0 15px 0;
+    margin: 1em  0 15px 0;
     text-align: left;
 }
 
@@ -150,7 +150,7 @@ body{
     height: fit-content;
 }
 #container1{
-    margin-bottom: 3em;
+    margin-bottom: 2.1em;
 }
 .grid-item{
     border: solid;
