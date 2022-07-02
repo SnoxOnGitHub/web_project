@@ -170,7 +170,7 @@ body{
 .grid-item{
     border-radius: 10px;
     border: solid;
-    border-width: 1.5px;
+    border-width: 2px;
     background-color: transparent;
     text-align: center;
     transition: all 0.5s ease 0s;
@@ -230,7 +230,7 @@ body{
 
 #playnano_box{
     background-color: var(--main-bg-color);
-    border: double 1.5px transparent;
+    border: double 2px transparent;
     background-image: linear-gradient(var(--main-bg-color), var(--main-bg-color)), 
                       var(--PlayNANO-gradient-color);
     background-origin: border-box;
@@ -241,7 +241,7 @@ body{
 }
 #brave_box{
     background-color: var(--main-bg-color);
-    border: double 1.5px transparent;
+    border: double 2px transparent;
     background-image: linear-gradient(var(--main-bg-color), var(--main-bg-color)), 
                       var(--Brave-gradient-color);
     background-origin: border-box;
@@ -327,12 +327,14 @@ body{
 @media only screen and (max-width: 1300px){
     .grid-container{
         grid-template-columns: 32.6% 32.6% 32.6%;
+        column-gap: 1%;
     }
 }
 
 @media only screen and (max-width: 1000px){
     .grid-container{
-        grid-template-columns: auto auto;
+        grid-template-columns: 49% 49%;
+        column-gap: 2%;
     }
 }
 
