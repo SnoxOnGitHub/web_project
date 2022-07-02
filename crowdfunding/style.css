@@ -36,7 +36,7 @@
 
 ::selection {
     color: var(--border-color);
-    background: var(--main-color); 
+    background: #fac54af1;
 }
 
 
@@ -142,16 +142,6 @@ body{
     padding: 1em 5% 0;
 }
 
-.goal{
-    color: var(--main-color);
-    font-style: italic;
-}
-
-.nano_address{
-    word-break: break-all;
-    color: var(--main-color);
-}
-
 .grid-container{
     display: grid;
     grid-template-columns: 24.22% 24.22% 24.22% 24.22%;
@@ -254,7 +244,6 @@ body{
 .crypto-logo{
     height: 30px;
     margin: 20px 0 7.5px;
-    pointer-events: none;
     user-select: none;
 }
 .info-text-box{
