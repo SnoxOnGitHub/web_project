@@ -54,6 +54,7 @@ header {
     /*width: 40px;*/
     height: 40px;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .module {
@@ -69,14 +70,35 @@ header {
     display: inline-block;
     padding: 0px 20px;
 }
-
 .navigationbar-list li a {
     transition: all 0.3s ease 0s;
 }
-
 .navigationbar-list li a:hover {
     color: var(--main-color);
 }
+
+/* Underline effect, somehow looks bad
+.navigationbar-list li a {
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.navigationbar-list li a::before {
+    content: attr(data);
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+    text-decoration: underline;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.navigationbar-list li a:hover::before {
+    width: 100%;
+}
+*/
 
 button {
     font-family: "Poppins";
