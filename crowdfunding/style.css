@@ -43,7 +43,7 @@
 li, a, p {
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.975em;
     color: var(--main-text-color);
     text-decoration: none;
 }
@@ -51,7 +51,7 @@ li, a, p {
 h1{
     font-family: "Poppins";
     font-weight: 600;
-    font-size: 1.7em;
+    font-size: 1.6em;
     color: var(--main-text-color);
     margin: 0 0 15px 0;
     text-align: left;
@@ -59,7 +59,7 @@ h1{
 
 h2{
     font-family: "Poppins";
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.3em;
     color: var(--main-text-color);
     margin: 1em  0 15px 0;

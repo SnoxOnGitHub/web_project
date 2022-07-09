@@ -27,7 +27,7 @@
 li, a, p {
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.975em;
     color: var(--main-text-color);
     text-decoration: none;
 }
