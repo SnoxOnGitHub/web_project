@@ -154,7 +154,7 @@ body{
         display: none;
     }
     header{
-        padding: 12.5px 5%;
+        padding: 10px 5%;
     }
     .linemenu{
         
@@ -183,10 +183,10 @@ body{
         margin: auto;
     }
     #line{
-        width: 25px;
+        width: 24.5px;
         height: 3.5px;
         background-color: var(--main-text-color);
-        margin: 4px;
+        margin: 3.5px;
         border-radius: 15px;
     }
     .linemenu.active #line{
