@@ -149,8 +149,39 @@ body{
     justify-content: start;
 }
 
-img{
+._404{
+    user-select: none;
+    aspect-ratio: 1/0.85;
     width: 70%;
+    /*animation: spin 5s infinite cubic-bezier(0.165, 0.84, 0.44, 1);*/
+}
+
+.part1{
+    fill: var(--main-text-color);
+    transition: all 0.3s ease 0s;
+}
+.part2{
+    fill: none;
+    stroke: var(--main-text-color);
+    stroke-miterlimit: 10;
+    stroke-width: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+._404:hover .part1{
+    fill: var(--main-color);
+}
+._404:hover .part2{
+    stroke: var(--main-color);
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate3d(1, 0, 0, 70deg) rotate(0deg);
+    }
+    100%{
+        transform: rotate3d(1, 0, 0, 70deg) rotate(360deg);
+    }
 }
 
 .copyright_container{
@@ -168,6 +199,9 @@ img{
 }
 
 @media only screen and (max-width: 1080px){
+    .content{
+        padding-top: 0;
+    }
     .grid-container{
         grid-template-columns: auto;
     }
@@ -294,8 +328,8 @@ img{
         margin-top: 2%;
     }
 
-    img{
-        width: 70%;
+    ._404{
+        width: 90%;
     }
     .error-content{
         width: 100%;
